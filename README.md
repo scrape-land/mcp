@@ -16,7 +16,7 @@ claude plugin marketplace add scrape-land/mcp
 claude plugin install scrape-land@scrape-land
 ```
 
-Claude Code asks for your API key and stores it securely.
+Then set your API key (stored securely): run `/plugin configure scrape-land@scrape-land` in Claude Code, or install with `--config api_key=YOUR_KEY`.
 
 **Gemini CLI:**
 
