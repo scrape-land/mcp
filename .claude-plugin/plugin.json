@@ -1,0 +1,19 @@
+{
+  "name": "scrape-land",
+  "version": "1.0.0",
+  "description": "Read any web page, past blocks, as markdown or JSON; search the web; find local businesses. Powered by scrape.land.",
+  "author": { "name": "scrape.land", "url": "https://scrape.land" },
+  "homepage": "https://scrape.land/docs#mcp",
+  "repository": "https://github.com/scrape-land/mcp",
+  "license": "MIT",
+  "keywords": ["web scraping", "web data", "markdown", "extraction", "search", "local businesses"],
+  "userConfig": {
+    "api_key": {
+      "type": "string",
+      "title": "scrape.land API key",
+      "description": "Create one in your scrape.land dashboard under API keys (starts with pb_live_).",
+      "sensitive": true,
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "scrape-land",
+  "owner": {
+    "name": "scrape.land",
+    "email": "support@scrape.land"
+  },
+  "metadata": {
+    "description": "Official scrape.land plugin: web pages, structured data, web search and local businesses for Claude."
+  },
+  "plugins": [
+    {
+      "name": "scrape-land",
+      "source": "./",
+      "description": "Read any web page, past blocks, as markdown or JSON; search the web; find local businesses."
+    }
+  ]
+}

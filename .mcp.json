@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "scrape-land": {
+      "type": "http",
+      "url": "https://scrape.land/mcp",
+      "headers": { "Authorization": "Bearer ${user_config.api_key}" }
+    }
+  }
+}

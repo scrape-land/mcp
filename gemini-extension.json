@@ -1,0 +1,20 @@
+{
+  "name": "scrape-land",
+  "version": "1.0.0",
+  "description": "Read any web page, past blocks, as markdown or JSON; search the web; find local businesses. Powered by scrape.land.",
+  "settings": [
+    {
+      "name": "scrape.land API key",
+      "description": "Create one in your scrape.land dashboard under API keys (starts with pb_live_).",
+      "envVar": "SCRAPELAND_API_KEY",
+      "sensitive": true
+    }
+  ],
+  "mcpServers": {
+    "scrape-land": {
+      "httpUrl": "https://scrape.land/mcp",
+      "headers": { "Authorization": "Bearer ${SCRAPELAND_API_KEY}" }
+    }
+  },
+  "contextFileName": "GEMINI.md"
+}
